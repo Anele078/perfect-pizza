@@ -1,7 +1,15 @@
 body {
+    
 
-    background-color:orange;
-    font-family: cursive;
+    background-color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    
+}
+
+.head {
+
+    font-size: x-large;
 }
 
 .pizza {
@@ -12,16 +20,26 @@ body {
     border-radius: 1em;
 }
 
+.pizzas {
+
+    display: flex;
+}
+
 .cont {
     background-color: royalblue;
     border: 1px solid purple;
     padding: 1em;
     margin: 1em;
     border-radius: 1em;
+    
 }
 
 .large_pizza {
     background-color: #264653;
+
+.centre {
+        text-align: center;
+}
     
 }
 
@@ -41,15 +59,6 @@ body {
 }
 
 
-@media (min-width : 960px) {
-    
-
-    body {
-
-        background-color:white;
-        
-    }
-}
 
 
 @media (min-width : 760px) {
@@ -57,15 +66,12 @@ body {
 
     body {
 
-        background-color: #FF006E;
+        background-color: #ffa500;
         
     }
 
-    .pizzas {
-
-        display: flex;
     
-    
-    }
 }
-
+.centre {
+    text-align: center;
+}
