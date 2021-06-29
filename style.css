@@ -4,6 +4,9 @@ body {
     background-color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
+    outline-width: 0pc;
+    border-radius: 1em;
+    
     
 }
 
@@ -23,6 +26,8 @@ body {
 .pizzas {
 
     display: flex;
+    
+    
 }
 
 .cont {
@@ -32,26 +37,29 @@ body {
     margin: 1em;
     border-radius: 1em;
     
+    
 }
 
 .large_pizza {
     background-color: #264653;
-
-.centre {
-        text-align: center;
-}
+    width: 600px;
     
 }
+
+.centre {
+    text-align: center;
+}
+
 
 .medium_pizza {
     background-color: #2a9d8f;
-    
-
+    width: 600px;
 
 }
 
 .small_pizza {
     background-color: #457b9d;
+    width: 600px;
 }
 
 .Contact details{
