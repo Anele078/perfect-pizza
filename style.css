@@ -6,6 +6,7 @@ body {
     font-size: larger;
     outline-width: 0pc;
     border-radius: 1em;
+   
     
     
 }
@@ -23,12 +24,7 @@ body {
     border-radius: 1em;
 }
 
-.pizzas {
 
-    display: flex;
-    
-    
-}
 
 .cont {
     background-color: royalblue;
@@ -41,7 +37,7 @@ body {
 }
 
 .large_pizza {
-    background-color: #264653;
+    background-color: #42c3b4;
     width: 600px;
     
 }
@@ -52,8 +48,11 @@ body {
 
 
 .medium_pizza {
+
     background-color: #2a9d8f;
     width: 600px;
+
+    
 
 }
 
@@ -76,10 +75,22 @@ body {
 
         background-color: #ffa500;
         
+        
+        
+    }
+
+    .pizzas {
+
+        display: flex;
+        
+        
     }
 
     
+    
 }
+
+
 .centre {
     text-align: center;
 }
