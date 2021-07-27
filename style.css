@@ -6,6 +6,7 @@ body {
     font-size: larger;
     outline-width: 0pc;
     border-radius: 1em;
+    display: 20%;
    
     
     
@@ -86,11 +87,26 @@ body {
         
     }
 
+    screen {
+
+        display: 50%;
+    }
+
     
     
 }
 
 
 .centre {
+
     text-align: center;
 }
+
+.screen {
+
+    display: 10%;
+}
+
+
+
+
